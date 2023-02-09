@@ -5,6 +5,16 @@
 - LinuxCommand.org [What is "the Shell"?](http://linuxcommand.org/lc3_lts0010.php).
 - [Read the Manual](http://linuxcommand.org/lc3_man_pages/man1.html).
 - [Keyboard Shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/).
+- [Understanding what the shell is](https://allthings.how/what-is-the-default-shell-in-linux-called/)
+- [User Interfaces in detail](http://theteacher.info/index.php/systems-software/notes/4623-types-of-user-interface)
+- [All about the Shells](https://mindmajix.com/shell-scripting-tutorial)
+- [Linux commands handbook](https://bjpcjp.github.io/pdfs/devops/linux-commands-handbook.pdf)
+- [Linux commands cheat sheet](http://cc.iiti.ac.in/docs/linuxcommands.pdf)
+- [Linux terminal starter guide](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/#:~:text=Launch%20a%20terminal%20from%20your,distributions%20use%20bash%20by%20default.&text=Press%20Enter%20after%20typing%20a,have%20file%20extensions%20on%20Linux.)
+- [Getting started with Shell Scripting](https://www.guru99.com/introduction-to-shell-scripting.html)
+- [Linux is amazing](https://www.comparitech.com/net-admin/linux-shell-getting-started/)
+- [Shell Scripts are awesome](https://dev.to/dechamp/bash-scripts-are-awesome-13m3)
+- [Shell scripting crash course](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
 
 ## Tasks
 
