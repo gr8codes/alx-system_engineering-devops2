@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1Ur | head # try -t instead of -U and remove -r if this command didn't work
