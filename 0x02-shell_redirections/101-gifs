@@ -1,0 +1,4 @@
+#!/bin/bash
+find . -name '*.gif' -type f | awk -F/ '{print $NF}' | cut -d. -f1 | LC_ALL=C  sort -f
+# The LC_ALL=C environment variable is used to set the locale to the "C" locale,
+# which sorts based on the byte values of the characters.
