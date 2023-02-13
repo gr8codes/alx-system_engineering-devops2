@@ -1,0 +1,3 @@
+#!/bin/bash
+#ls -lAR | grep ^d -c
+find . -type d -not -name '.' | wc -l
