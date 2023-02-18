@@ -1,8 +1,15 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+<p align="center">  
+<img src ="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png">
+</p>
 
-# 0x00 ALX System Engineering and DevOps
+
+<h1 align="center">
+	ALX System Engineering and DevOps
+</h1>
 
 >Learning bash, scripting, networking and web infra right now, been wanting to get on this. It's going to be FUN !!.
+
+>If you need any **help**. Please do not hesitate to get in touch with me in our <a href="https://discord.gg/vTvkDgsS6J">Discord Server</a>.
 
 ## About
 
