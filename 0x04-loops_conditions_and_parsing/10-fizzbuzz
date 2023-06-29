@@ -13,5 +13,5 @@ while [ $i -lt 101 ]; do
     else
         echo $i
     fi
-    let i+=1
+    (( i++ )) || true
 done
