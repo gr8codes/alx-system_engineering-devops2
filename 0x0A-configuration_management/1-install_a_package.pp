@@ -4,7 +4,8 @@ class { 'python::pip':
   ensure   => present,  # ensure pip is installed
 }
 
-python::pip::package { 'flask':
-  ensure   => '2.1.1',
+python::pip::package { 'Flask':
+  ensure   => '2.1.0',
   provider => 'pip3',
+
 }
