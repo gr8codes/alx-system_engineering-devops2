@@ -3,4 +3,4 @@
 #     - Name of private key: school
 #     - Number of bits in the key: 4096
 #     - Passphrase: betty
-ssh-keygen -t rsa -b 4096 -C "school" -f "$HOME/.ssh/school" -N "betty"
+ssh-keygen -t rsa -b 4096 -f "school" -N "betty"
