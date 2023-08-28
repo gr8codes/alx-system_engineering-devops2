@@ -35,7 +35,7 @@ else
 fi
 
 # Configure Nginx to redirect to another page permanently with a 301 Moved Permanently HTTP response
-sed -i 's/^\tlocation \/ {$/\tlocation \/redirect_me {\n\t\treturn 301 https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ;\n\t}\n\n\tlocation \//g' /etc/nginx/sites-available/default
+sed -i 's/^\tlocation \/ {$/\tlocation \/redirect_me {\n\t\treturn 301 https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4;\n\t}\n\n\tlocation \//g' /etc/nginx/sites-available/default
 
 # Check if the configuration is valid
 if nginx -t | grep "successful"; then
