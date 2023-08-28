@@ -46,7 +46,7 @@ fi
 echo "server {
     listen 80;
     listen [::]:80 default_server;
-    root   /etc/nginx/html;
+    root  $root_dir;
     index  index.html;
     location /redirect_me {
         return 301 https://linkedin.com/in/achrafelkhnissi/;
