@@ -1,3 +1,4 @@
+# Install nginx
 
 exec {'Update system':
   command => '/usr/bin/apt-get update',
