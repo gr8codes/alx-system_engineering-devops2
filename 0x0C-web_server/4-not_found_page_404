@@ -8,6 +8,7 @@
 
 link="https://www.linkedin.com/in/achrafelkhnissi/"
 config="/etc/nginx/sites-available/default"
+error_file="/var/www/html/404.html"
 
 # Install nginx
 apt-get -y update
@@ -46,11 +47,12 @@ else
 fi
 
 # Configure Nginx to redirect to another page permanently with a 301 Moved Permanently HTTP response
-sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://linkedin.com/in/achrafelkhnissi/ permanent;" /etc/nginx/sites-available/default
+sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://linkedin.com/in/achrafelkhnissi/ permanent;" $config
 
 # Configure Nginx to have a custom 404 page that contains the string `Ceci n'est pas une page`
-echo "Ceci n'est pas une page" > "$root_dir"/404.html
-sed -i 's/^\tlisten \[::]:80 default_server;\n/\n\terror_page 404 \/404.html;\n/g' $config
+
+echo "Ceci n'est pas une page" > "$error_file"
+sed -i "/listen 80 default_server;/a error_page 404 /404.html; location = /404.html {root  /var/www/html;\n internal;}" $config
 
 # Check if the configuration is valid
 if nginx -t | grep "successful"; then
