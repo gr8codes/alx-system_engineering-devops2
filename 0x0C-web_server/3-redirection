@@ -14,6 +14,13 @@ if [[ ! $(pgrep nginx) ]]; then
     service nginx start
 fi
 
+# Allow Nginx through the firewall
+ufw allow 'Nginx HTTP'
+
+# Give the user ownership to website files for easy editing
+chown -R "$USER":"$USER" /var/www/html
+chmod -R 755 /var/www
+
 # Get the first root directory of nginx from the configuration file
 root_dir=$(grep "root" /etc/nginx/sites-available/default | cut -d " " -f 2 | tr -d ";" | head -1)
 
