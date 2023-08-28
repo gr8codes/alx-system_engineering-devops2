@@ -17,7 +17,7 @@ file {'/usr/share/nginx/www/index.html':
 
 # Redirect /redirect_me to a youtube video
 file {'Redirect me':
-  command  => 'sed -i "24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default',
+  command  => 'sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://linkedin.com/in/achrafelkhnissi/ permanent;" /etc/nginx/sites-available/default',
   provider => 'shell',
 }
 
