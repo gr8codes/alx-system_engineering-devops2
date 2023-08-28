@@ -53,6 +53,9 @@ fi
 # Reload Nginx
 nginx -s reload
 
+# Restart Nginx
+service nginx restart
+
 # Check if Nginx is redirecting to the expected page
 
 exit 0
